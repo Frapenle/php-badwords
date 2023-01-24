@@ -2,7 +2,8 @@
 //Variabile $sentence presa dal textarea attraverso l'attributo name
 $sentence = $_GET["sentence"];
 //Variabile $badword presa dall'imput attraverso l'attributo name
-$badword = $_GET["badword"];
+//add string to lowercase
+$badword = strtolower(trim(($_GET["badword"])));
 //stampa $sentence su schermo
 echo ("Frase inserita dall'utente: " . "<br>" . $sentence . "<br>");
 //stampa la lunghezza della frase
