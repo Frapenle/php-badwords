@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form action="./form.php">
+    <form action="./form.php" method="GET">
         <label for="badword">Inserire parola da nascondere</label>
         <input type="text" name="badword" id="badword">
         <button type="submit">Replace</button>
