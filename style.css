@@ -1,0 +1,15 @@
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.form-control {
+    max-width: 50% !important;
+    display: inline-block !important;
+}
+
+.input-area {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
