@@ -39,6 +39,11 @@
         <?php
         $new_sentence = str_replace($badword, "***", $sentence);
         echo $new_sentence;
+        ?>
+    </p>
+    <p>Nuova unghezza della frase:
+        <?php
+        $new_sentence = str_replace($badword, "***", $sentence);
         echo strlen($new_sentence);
         ?>
     </p>
