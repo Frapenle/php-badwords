@@ -12,10 +12,10 @@
     <h3>Parola da sostituire:
         <?php
         //Variabile $sentence presa dal textarea attraverso l'attributo name
-        $sentence = strtolower($_GET["sentence"]);
+        $sentence = strtolower($_POST["sentence"]);
         //Variabile $badword presa dall'imput attraverso l'attributo name
         //converti stringa in lowercase e trim spazi bianchi prima e dopo
-        $badword = strtolower(trim(($_GET["badword"])));
+        $badword = strtolower(trim(($_POST["badword"])));
         //stampa $badword su schermo
         echo $badword;
         ?>
